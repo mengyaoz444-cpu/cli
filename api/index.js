@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const target = "https://gcli.ggchan.dev/v1" + req.url;
+  const target = "https://gcli.ggchan.dev" + req.url;
 
   try {
     const response = await fetch(target, {
